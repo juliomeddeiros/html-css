@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /* Lighter Normal Bold Bolder */
+        }
+
+        h1 {
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic; */
+            font: italic bolder 3em Arial, Helvetica, sans-serif; 
+        }
+
+        h2 {
+            font: bold 2em Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed pariatur assumenda et voluptas qui laborum perferendis, id deleniti voluptatum laboriosam ab at nihil quidem magni officiis eaque impedit magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium voluptate odio tempore! Eos assumenda doloribus, sunt adipisci harum similique incidunt. Natus consequatur ipsa voluptas repellat! Accusamus obcaecati similique vero.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At corporis minima, id ullam commodi quod ratione. Maxime, explicabo? Doloremque officia numquam rem perspiciatis quidem vero, est provident. Debitis, quas atque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, rem nulla unde fugit commodi atque, harum sit nostrum modi, illum maiores. Praesentium, earum facere! Veritatis quis voluptate rerum labore nemo!</p>
+</body>
+</html>
